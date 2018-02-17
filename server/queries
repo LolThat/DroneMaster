@@ -1,0 +1,21 @@
+1.
+db.createCollection('toys'); response {ok:1}
+
+show collections wills shows all collections
+2.
+db.toys.insert({name:'yoyos', color:'red'});
+3.
+db.toys.find();
+show all documents of collections
+
+4. //robo mongo of mongo
+
+
+5. queries
+return array
+Model.find({},function(err, documents){
+    if(err){next(err}
+    else {res.json(documents);}
+}
+
+
